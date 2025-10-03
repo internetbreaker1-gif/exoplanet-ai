@@ -80,17 +80,13 @@ streamlit
 # ExoHunter AI
 
 
-## How to Run
-1. Install dependencies:
 ```bash
 pip install -r requirements.txt
 ```
-2. Train model:
+
 ```bash
 python train_model.py
 ```
-3. Run web app:
-```bash
 streamlit run app.py
 ```
-4. Input star and planet parameters and get predictions.
+
