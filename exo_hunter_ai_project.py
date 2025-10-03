@@ -74,3 +74,24 @@ pandas
 numpy
 scikit-learn
 streamlit
+
+
+# README.md
+# ExoHunter AI
+
+A full project for the NASA Space Apps Challenge 2025: Hunting Exoplanets with AI.
+
+## How to Run
+1. Install dependencies:
+```bash
+pip install -r requirements.txt
+```
+2. Train model:
+```bash
+python train_model.py
+```
+3. Run web app:
+```bash
+streamlit run app.py
+```
+4. Input star and planet parameters and get predictions.
