@@ -80,13 +80,13 @@ streamlit
 # ExoHunter AI
 
 
-```bash
-pip install -r requirements.txt
-```
 
-```bash
+pip install -r requirements.txt
+
+
+
 python train_model.py
-```
+
 streamlit run app.py
-```
+
 
