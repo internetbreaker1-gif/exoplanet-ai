@@ -1,13 +1,4 @@
-exo_hunter_ai/
-├── data/
-│   └── exoplanet_data.csv  # placeholder CSV, add your NASA exoplanet dataset here
-├── models/
-│   └── exo_model.pkl       # trained ML model will be saved here
-├── preprocess.py
-├── train_model.py
-├── app.py
-├── requirements.txt
-└── README.md
+# This is a cleaned, ready-to-run ExoHunter AI project without folder diagrams or invalid characters.
 
 # preprocess.py
 import pandas as pd
@@ -30,6 +21,7 @@ def load_and_preprocess(file_path):
     X_scaled = scaler.fit_transform(X)
     return X_scaled, y, scaler, le
 
+
 # train_model.py
 import pickle
 from sklearn.ensemble import RandomForestClassifier
@@ -47,6 +39,7 @@ print(classification_report(y_test, y_pred, target_names=le.classes_))
 with open('models/exo_model.pkl', 'wb') as f:
     pickle.dump({'model': model, 'scaler': scaler, 'label_encoder': le}, f)
 print("Model saved successfully!")
+
 
 # app.py
 import streamlit as st
@@ -75,11 +68,13 @@ if st.button("Predict"):
     pred_label = le.inverse_transform(pred)[0]
     st.success(f"Prediction: **{pred_label}**")
 
+
 # requirements.txt
 pandas
 numpy
 scikit-learn
 streamlit
+
 
 # README.md
 # ExoHunter AI
