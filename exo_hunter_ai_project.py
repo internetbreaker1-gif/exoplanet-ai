@@ -79,7 +79,7 @@ streamlit
 # README.md
 # ExoHunter AI
 
-A full project for the NASA Space Apps Challenge 2025: Hunting Exoplanets with AI.
+# A full project for the NASA Space Apps Challenge 2025: Hunting Exoplanets with AI.
 
 ## How to Run
 1. Install dependencies:
