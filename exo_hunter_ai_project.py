@@ -130,9 +130,3 @@ streamlit run app.py
 
 ---
 
-✅ **Instructions:**
-1. Delete your old `exo_model.pkl` in `models/`.
-2. Train using `train_model.py`.
-3. Run `app.py` — the inputs now match exactly 6 features.
-
-This version will **eliminate the feature mismatch error**.
